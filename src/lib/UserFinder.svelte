@@ -8,7 +8,7 @@
   }
 </script>
 
-<main class="flex items-center justify-center mt-16 ">
+<section class="flex items-center justify-center mt-24 ">
   <form on:submit|preventDefault={submit}>
     <p>Enter a username to find on GitHub</p>
     <div class="grid gap-2 mt-4">
@@ -31,4 +31,4 @@
     </div>
   </div>
   {/if}
-</main>
+</section>
